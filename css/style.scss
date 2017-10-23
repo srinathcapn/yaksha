@@ -1415,7 +1415,8 @@
             font-size: 16px;
         }
         td {
-            background-color: #e0f0ff;
+            vertical-align: inherit;
+            // background-color: #e0f0ff;
         }
         tr {
             border: 5px solid #fff;

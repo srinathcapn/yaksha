@@ -77,49 +77,32 @@
     </section>
     <section class="fourth bg-color">
         <div class="container">
-            <h2 class="heading wow fadeInDown light ">What we offer</h2>
+            <h2 class="heading wow fadeInDown light">Clients</h2>
+            <div id="owl-demo-4" class="owl-carousel owl-theme" style="margin-top:20px;">
+                <div class="item">
+                    <h3>item1</h3>
+                </div>
+                <div class="item">
+                    <h3>item2</h3>
+                </div>
+                <div class="item">
+                    <h3>item3</h3>
+                </div>
+                <div class="item">
+                    <h3>item4</h3>
+                </div>
+                <div class="item">
+                    <h3>item5</h3>
+                </div>
+            </div>
+            <!-- <div class="customNavigation">
+                <a class="prev4"><span class="sprite left-arr"></span></a>
+                <a class="next4"><span class="sprite right-arr"></span></a>
+            </div> -->
         </div>
     </section>
     <section class="cards-holder">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-6 no-paddding col-xs-12 wow fadeIn" data-wow-delay=".3s">
-                    <div class="img-holder">
-                        <img class="img-responsive" src="images/news/1.jpg" alt="news" style="filter: brightness(18%);">
-                        <h4 class="absl-text">Point 1</h4>
-                    </div>
-                    <div class="absolute-text">
-                        <h5>text1</h5>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 no-paddding col-xs-12 wow fadeIn" data-wow-delay=".5s">
-                    <div class="img-holder">
-                        <img class="img-responsive" src="images/news/2.jpg" alt="news" style="filter: brightness(18%);" />
-                        <h4 class="absl-text">Point 2</h4>
-                    </div>
-                    <div class="absolute-text">
-                        <h5>text 2</h5>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 no-paddding wow fadeIn" data-wow-delay=".7s">
-                    <div class="img-holder">
-                        <img class="img-responsive" src="images/news/3.jpg" alt="news" style="filter: brightness(18%);" />
-                        <h4 class="absl-text">Point 3</h4>
-                    </div>
-                    <div class="absolute-text">
-                        <h5>text 3</h5>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 no-paddding wow fadeIn" data-wow-delay=".7s">
-                    <div class="img-holder">
-                        <img class="img-responsive" src="images/news/4.jpeg" alt="news" style="filter: brightness(18%);" />
-                        <h4 class="absl-text">Point 4</h4>
-                    </div>
-                    <div class="absolute-text">
-                        <h5>text 4</h5>
-                    </div>
-                </div>
-            </div>
+        <div class="container">
         </div>
     </section>
     <section class="fourth getStarted">
@@ -182,14 +165,15 @@
     <!-- <script src="plugins/particle/particles.js"></script> -->
     <script src="plugins/js/app.js"></script>
     <script>
-        var owl1 = $("#owl-demo-1");
-        owl1.owlCarousel({
-            items: 1, //10 items above 1000px browser width
-            itemsDesktop: [1100, 1], //5 items between 1000px and 901px
-            itemsDesktopSmall: [900, 1], // betweem 900px and 601px
-            itemsTablet: [600, 1], //2 items between 600 and 0
-            slideSpeed: 500,
-            itemsMobile: true // itemsMobile disabled - inherit from itemsTablet option
+        var owl4 = $("#owl-demo-4");
+        owl4.owlCarousel({
+            items: 4, //10 items above 1000px browser width
+            itemsDesktop: [1100, 3], //5 items between 1000px and 901px
+            itemsDesktopSmall: [900, 3], // betweem 900px and 601px
+            itemsTablet: [600, 2], //2 items between 600 and 0
+            slideSpeed: 1000,
+            itemsMobile: true,
+            autoPlay: 2000
         });
         // Custom Navigation Events
         $(".next").click(function() {
