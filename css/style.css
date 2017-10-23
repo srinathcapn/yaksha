@@ -7065,4 +7065,14 @@ canvas {
         width: 100%;
         min-height: 100%; } }
 
+.table.customOne td,
+.table.customOne th {
+  padding: 20px;
+  border: 0;
+  font-size: 16px; }
+.table.customOne td {
+  background-color: #e0f0ff; }
+.table.customOne tr {
+  border: 5px solid #fff; }
+
 /*# sourceMappingURL=style.css.map */

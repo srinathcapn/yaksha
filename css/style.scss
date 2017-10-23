@@ -1406,3 +1406,18 @@
             }
         }
     }
+    
+    .table.customOne {
+        td,
+        th {
+            padding: 20px;
+            border: 0;
+            font-size: 16px;
+        }
+        td {
+            background-color: #e0f0ff;
+        }
+        tr {
+            border: 5px solid #fff;
+        }
+    }
