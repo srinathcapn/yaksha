@@ -1422,3 +1422,15 @@
             border: 5px solid #fff;
         }
     }
+    
+    #owl-demo-4 {
+        .item {
+            height: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+                max-width: 150px;
+            }
+        }
+    }

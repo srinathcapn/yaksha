@@ -7075,4 +7075,12 @@ canvas {
 .table.customOne tr {
   border: 5px solid #fff; }
 
+#owl-demo-4 .item {
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  #owl-demo-4 .item img {
+    max-width: 150px; }
+
 /*# sourceMappingURL=style.css.map */
