@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <header class="trans">
+    <header class="blackheader">
         <nav class="navbar pos-rel">
             <div class="container pos-rel">
                 <div class="navbar-header">
@@ -72,8 +72,14 @@
             </div>
         </div>
     </section>
-    <section>
-        <img src="images/penta.png" alt="image">
+    <section class="fourth getStarted">
+        <div class="container">
+            <h2 class="heading wow fadeInDown">Get started </h2>
+            <p>Let us help to drive your business smoother</p>
+            <div class="text-center wow fadeInDown">
+                <a href="request-demo.html" class="btn btn-primary">Request demo</a>
+            </div>
+        </div>
     </section>
     <section class="fourth bg-color">
         <div class="container">
@@ -102,15 +108,7 @@
         <div class="container">
         </div>
     </section>
-    <section class="fourth getStarted">
-        <div class="container">
-            <h2 class="heading wow fadeInDown">Get started </h2>
-            <p>Let us help to drive your business smoother</p>
-            <div class="text-center wow fadeInDown">
-                <a href="request-demo.html" class="btn btn-primary">Request demo</a>
-            </div>
-        </div>
-    </section>
+
     <footer>
         <div class="small-container">
             <div class="row">
@@ -234,23 +232,23 @@
         // });
 
 
-        if ($(window).width() > 1024) {
-            $(window).scroll(function() {
-                var scroll = $(window).scrollTop();
-                if (scroll >= 100) {
-                    $('header').removeClass('trans');
-                    $('header').addClass('blackheader');
+        // if ($(window).width() > 1024) {
+        //     $(window).scroll(function() {
+        //         var scroll = $(window).scrollTop();
+        //         if (scroll >= 100) {
+        //             $('header').removeClass('trans');
+        //             $('header').addClass('blackheader');
 
-                } else {
-                    $('header').addClass('trans');
-                    $('header').removeClass('blackheader');
-                    document.getElementById('sma').src = 'images/logo.png';
-                }
-            });
-        } else {
-            $('header').removeClass('trans');
-            $('header').addClass('blackheader');
-        }
+        //         } else {
+        //             $('header').addClass('trans');
+        //             $('header').removeClass('blackheader');
+        //             document.getElementById('sma').src = 'images/logo.png';
+        //         }
+        //     });
+        // } else {
+        //     $('header').removeClass('trans');
+        //     $('header').addClass('blackheader');
+        // }
     </script>
 </body>
 

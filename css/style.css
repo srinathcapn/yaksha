@@ -5954,8 +5954,9 @@ footer {
       font-size: 13px;
       color: #fff; }
       footer .footer-links li a {
-        font-size: 13px;
-        color: #fff; }
+        font-size: 15px;
+        color: #fff;
+        font-family: cursive; }
         footer .footer-links li a:focus, footer .footer-links li a:hover {
           color: #3db5e5; }
     @media screen and (max-width: 992px) {
@@ -6190,7 +6191,7 @@ h6 {
         top: 75%; }
       .first .items-holder .item-content h3 {
         text-transform: uppercase;
-        font-size: 45px;
+        font-size: 70px;
         font-weight: 500;
         color: #fff;
         line-height: 60px; }
@@ -6463,9 +6464,9 @@ div#owl-demo-2 {
 
 .fourth {
   position: relative;
-  background-color: #fff; }
+  background-color: #e1ebff; }
   .fourth.bg-color {
-    background-color: #f8ffb6; }
+    background-color: #fbffd8; }
   .fourth .container {
     position: relative; }
   .fourth .owl-controls {
@@ -6974,8 +6975,8 @@ canvas {
   margin-right: 10px; }
 
 .whttext {
-  color: #fff;
-  font-size: 20px;
+  color: #fff8c4;
+  font-size: 24px;
   max-width: 980px;
   margin: 0 auto 20px; }
   @media screen and (max-width: 767px) {
