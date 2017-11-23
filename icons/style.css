@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'dhruvaicon';
+  src:  url('fonts/dhruvaicon.eot');
+  src:  url('fonts/dhruvaicon.eot') format('embedded-opentype'),
+    url('fonts/dhruvaicon.ttf') format('truetype'),
+    url('fonts/dhruvaicon.woff') format('woff'),
+    url('fonts/dhruvaicon.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'dhruvaicon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-believe-1:before {
+  content: "\e900";
+}
+.icon-believe-2:before {
+  content: "\e901";
+}
+.icon-believe-3:before {
+  content: "\e902";
+}
+.icon-believe-4:before {
+  content: "\e903";
+}
+.icon-play:before {
+  content: "\e904";
+}
+.icon-more:before {
+  content: "\e905";
+}
+
+
+
+
+.believe{
+  font-size: 30px;
+  color: #fff;
+  padding: 10px;
+}
+.icon-1{
+   background-color: #b82828;
+}
+.icon-2{
+   background-color: #d0651d;
+}
+.icon-3{
+   background-color: #ee8c2d;
+}
+.icon-4{
+   background-color: #eda635;
+}
