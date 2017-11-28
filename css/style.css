@@ -7084,4 +7084,8 @@ canvas {
   #owl-demo-4 .item img {
     max-width: 150px; }
 
+@media screen and (min-width: 768px) {
+  .lessP {
+    padding: 20px 0; } }
+
 /*# sourceMappingURL=style.css.map */
