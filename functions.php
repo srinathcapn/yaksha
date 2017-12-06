@@ -36,7 +36,7 @@ $action = '';
 		                        </body>
 		                    </html>";   
 		        
-		        $from='veema@appinessworld.com'; 
+		        $from='veema3008@gmail.com'; 
 		        // define the headers we want passed. Note that they are separated with \r\n0
 		        $headers  = "From: " . strip_tags($from) . "\r\n";
 		        $headers .= "Reply-To: ". strip_tags($email_id) . "\r\n";
