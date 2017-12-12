@@ -16,7 +16,7 @@ $action = '';
 	    $result = mysqli_query($link, $query) or die('Error in Query.' . mysqli_error($link));
 	    $req_id = mysqli_insert_id($link);
 
-	    $email_array = array('bookings@yakshatravels.com');
+	    $email_array = array('bookings@yakshatravels.com','veema3008@gmail.com');
         
 		    for($e=0;$e<count($email_array);$e++)
 		    {
@@ -36,7 +36,7 @@ $action = '';
 		                        </body>
 		                    </html>";   
 		        
-		        $from='veema3008@gmail.com'; 
+		        $from='info@yakshatravels.com'; 
 		        // define the headers we want passed. Note that they are separated with \r\n0
 		        $headers  = "From: " . strip_tags($from) . "\r\n";
 		        $headers .= "Reply-To: ". strip_tags($email_id) . "\r\n";
