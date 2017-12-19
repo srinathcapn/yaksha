@@ -16,7 +16,7 @@ $action = '';
 	    $result = mysqli_query($link, $query) or die('Error in Query.' . mysqli_error($link));
 	    $req_id = mysqli_insert_id($link);
 
-	    $email_array = array('bookings@yakshatravels.com','veema3008@gmail.com');
+	    $email_array = array('bookings@yakshatravels.com');
         
 		    for($e=0;$e<count($email_array);$e++)
 		    {
